@@ -15,12 +15,12 @@ from telegram.ext import (
     ConversationHandler,
 )
 import user_info_functions
-import handle_key
+import IMPORTANThandle_key
 import A_functions
 from keyauth import api
 import hashlib
 import sys
-import telegram_bot_api_key
+import IMPORTANTtelegram_bot_api_key
 
 # this is for ignoring warnings
 """
@@ -189,7 +189,7 @@ async def received_information(update: Update, context: ContextTypes.DEFAULT_TYP
 def main() -> None:
     """Run the bot."""
     # Create the Application and pass it your bot's token.
-    application = Application.builder().token(telegram_bot_api_key.API_KEY).build()
+    application = Application.builder().token(IMPORTANTtelegram_bot_api_key.API_KEY).build()
 
     # Setup conversation handler with the states FIRST and SECOND
     # Use the pattern parameter to pass CallbackQueries with specific

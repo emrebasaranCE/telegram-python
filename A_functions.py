@@ -22,7 +22,7 @@ from warnings import filterwarnings
 from telegram.warnings import PTBUserWarning
 filterwarnings(action="ignore", message=r".*CallbackQueryHandler", category=PTBUserWarning)
 
-import inlineKeyboardMain_v2 as main_codes
+import main as main_codes
 
 async def showing_deluxe_categories(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     file_path_of_files = "A"
